@@ -209,18 +209,18 @@ class Character extends FlxSprite
 
 				flipX = true;
 
-			case 'bf':
+			case 'sonic fw':
 				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND');
 				frames = tex;
-				animation.addByPrefix('idle', 'BF idle dance', 24, false);
-				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
-				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
-				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
-				animation.addByPrefix('singDOWN', 'BF NOTE DOWN0', 24, false);
-				animation.addByPrefix('singUPmiss', 'BF NOTE UP MISS', 24, false);
-				animation.addByPrefix('singLEFTmiss', 'BF NOTE LEFT MISS', 24, false);
-				animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS', 24, false);
-				animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS', 24, false);
+				animation.addByPrefix('idle', 'Sonic idle', 24, false);
+				animation.addByPrefix('singUP', 'Sonic up', 24, false);
+				animation.addByPrefix('singLEFT', 'Sonic left', 24, false);
+				animation.addByPrefix('singRIGHT', 'Sonic right', 24, false);
+				animation.addByPrefix('singDOWN', 'Sonic down', 24, false);
+				animation.addByPrefix('singUPmiss', 'MISS Sonic up', 24, false);
+				animation.addByPrefix('singLEFTmiss', 'MISS Sonic left', 24, false);
+				animation.addByPrefix('singRIGHTmiss', 'MISS Sonic right', 24, false);
+				animation.addByPrefix('singDOWNmiss', 'MISS Sonic down', 24, false);
 				animation.addByPrefix('hey', 'BF HEY', 24, false);
 				animation.addByPrefix('spinMic', 'BF MIC SPIN', 24, false);
 
@@ -237,18 +237,18 @@ class Character extends FlxSprite
 				flipX = true;
 				loadOffsetFile(curCharacter);
 
-			case 'bf-christmas':
+			case 'fleetway':
 				var tex = Paths.getSparrowAtlas('characters/bfChristmas');
 				frames = tex;
-				animation.addByPrefix('idle', 'BF idle dance', 24, false);
-				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
-				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
-				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
-				animation.addByPrefix('singDOWN', 'BF NOTE DOWN0', 24, false);
-				animation.addByPrefix('singUPmiss', 'BF NOTE UP MISS', 24, false);
-				animation.addByPrefix('singLEFTmiss', 'BF NOTE LEFT MISS', 24, false);
-				animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS', 24, false);
-				animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS', 24, false);
+				animation.addByPrefix('idle', 'Fleet up', 24, false);
+				animation.addByPrefix('singUP', 'Fleet up', 24, false);
+				animation.addByPrefix('singLEFT', 'Fleet left', 24, false);
+				animation.addByPrefix('singRIGHT', 'Fleet right', 24, false);
+				animation.addByPrefix('singDOWN', 'Fleet down', 24, false);
+				animation.addByPrefix('singUPmiss', 'MISS Sonic up', 24, false);
+				animation.addByPrefix('singLEFTmiss', 'MISS Sonic left', 24, false);
+				animation.addByPrefix('singRIGHTmiss', 'MISS Sonic right', 24, false);
+				animation.addByPrefix('singDOWNmiss', 'MISS Sonic down', 24, false);
 				animation.addByPrefix('hey', 'BF HEY', 24, false);
 				animation.addByPrefix('spinMic', 'BF idle dance', 24, false);
 
