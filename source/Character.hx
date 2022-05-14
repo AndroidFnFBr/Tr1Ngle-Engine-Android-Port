@@ -210,7 +210,7 @@ class Character extends FlxSprite
 				flipX = true;
 
 			case 'sonic fw':
-				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND');
+				var tex = Paths.getSparrowAtlas('characters/sonic fw');
 				frames = tex;
 				animation.addByPrefix('idle', 'Sonic idle', 24, false);
 				animation.addByPrefix('singUP', 'Sonic up', 24, false);
@@ -238,7 +238,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 
 			case 'fleetway':
-				var tex = Paths.getSparrowAtlas('characters/bfChristmas');
+				var tex = Paths.getSparrowAtlas('characters/fleetway');
 				frames = tex;
 				animation.addByPrefix('idle', 'Fleet up', 24, false);
 				animation.addByPrefix('singUP', 'Fleet up', 24, false);
