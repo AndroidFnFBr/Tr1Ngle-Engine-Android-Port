@@ -20,7 +20,7 @@ class PosSettings
 class MenuCharacter extends FlxSprite
 {
 	private static var settings:Map<String, PosSettings> = [
-		'bf' => new PosSettings(0, -20, 1.0, true),
+		'sonic fw' => new PosSettings(0, -20, 1.0, true),
 		'gf' => new PosSettings(50, 80, 1.5, true),
 		'dad' => new PosSettings(-15, 130),
 		'spooky' => new PosSettings(20, 30),
@@ -50,7 +50,9 @@ class MenuCharacter extends FlxSprite
 		animation.addByPrefix('mom', "Mom Idle BLACK LINES", 24);
 		animation.addByPrefix('parents-christmas', "Parent Christmas Idle", 24);
 		animation.addByPrefix('senpai', "SENPAI idle Black Lines", 24);
-
+                animation.addByPrefix('sonic fw', "Sonic idle Black Lines", 24);
+		animation.addByPrefix('fleetway', "Fleet up Black Lines", 24);
+		
 		setGraphicSize(Std.int(width * scale));
 		updateHitbox();
 	}
